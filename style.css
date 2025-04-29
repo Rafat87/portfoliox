@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+header.hero {
+  background: #0073b1;
+  color: white;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+header.hero .btn {
+  background: white;
+  color: #0073b1;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+section {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.projects .project {
+  margin-bottom: 1.5rem;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.skills li {
+  background: #f0f0f0;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+.contact .socials a {
+  color: #0073b1;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #f8f8f8;
+}
